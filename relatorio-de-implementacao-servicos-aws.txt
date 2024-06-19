@@ -1,0 +1,69 @@
+RELATÓRIO DE IMPLEMENTAÇÃO DE SERVIÇOS AWS
+Data: 27/06/2024
+Empresa: Abstergo Industries
+Responsável: Samuel Conceição de Souza
+
+-------------------------------------------------------------------------------------
+
+Introdução
+Este relatório apresenta o processo de implementação de ferramentas na empresa 
+Abstergo Industries, realizado por Samuel Conceição de Souza. O objetivo do projeto 
+foi elencar 3 serviços AWS, com a finalidade de realizar diminuição de custos 
+imediatos.
+
+-------------------------------------------------------------------------------------
+
+Descrição do Projeto
+
+O projeto de implementação de ferramentas foi dividido em 3 etapas, cada uma com 
+seus objetivos específicos. A seguir, serão descritas as etapas do projeto:
+
+Etapa 1:
+• Nome da ferramenta: AWS Cost Explorer
+• Foco da ferramenta: Monitoramento e otimização de custos
+• Descrição de caso de uso:
+O AWS Cost Explorer foi implementado para fornecer visibilidade detalhada 
+sobre os gastos da empresa com serviços AWS. A ferramenta permite identificar 
+áreas onde os custos podem ser reduzidos, fornecendo relatórios personalizados 
+e gráficos que mostram padrões de uso e gastos ao longo do tempo. Isso ajudou 
+a identificar recursos subutilizados ou ociosos, permitindo ajustes que 
+resultaram em economia imediata.
+
+Etapa 2:
+• Nome da ferramenta: AWS Lambda
+• Foco da ferramenta: Computação sem servidor e escalabilidade
+• Descrição de caso de uso:
+O AWS Lambda foi utilizado para migrar funções que antes eram executadas em 
+instâncias EC2. Com a computação sem servidor, paga-se apenas pelo tempo de 
+execução do código, eliminando a necessidade de manter servidores ativos 
+constantemente. Isso levou a uma redução significativa dos custos operacionais, 
+especialmente para tarefas que são executadas esporadicamente ou que têm 
+picos de demanda imprevisíveis.
+
+Etapa 3:
+• Nome da ferramenta: Amazon S3 Intelligent-Tiering
+• Foco da ferramenta: Armazenamento otimizado de objetos
+• Descrição de caso de uso:
+O Amazon S3 Intelligent-Tiering foi implementado para armazenar dados com 
+base em padrões de acesso. Este serviço move automaticamente dados entre 
+duas camadas de acesso (frequente e infrequente) quando padrões de acesso 
+mudam, sem taxas adicionais de recuperação. Isso garantiu que a empresa pague 
+apenas pelo armazenamento necessário, reduzindo custos com armazenamento 
+de dados raramente acessados.
+
+-------------------------------------------------------------------------------------
+
+Conclusão
+A implementação de ferramentas na empresa Abstergo Industries tem como esperado 
+uma redução significativa nos custos operacionais, aumentando a eficiência e a 
+produtividade da empresa. Recomenda-se a continuidade da utilização das ferramentas 
+implementadas e a busca por novas tecnologias que possam melhorar ainda mais os 
+processos da empresa.
+Anexos
+
+1. Manual do AWS Cost Explorer
+2. Documentação do AWS Lambda
+3. Guia de uso do Amazon S3 Intelligent-Tiering
+4. Planilhas de análise de custos antes e depois da implementação
+
+-------------------------------------------------------------------------------------
